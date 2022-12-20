@@ -3,7 +3,10 @@ guid: 210c888e80c13d547a474d8945b3a3f1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - birdJump: {fileID: 8300000, guid: 81e87b2317b330e408ba27f04acaa109, type: 3}
+  - birdDie: {fileID: 8300000, guid: 5b435caeb9523504a928e88abd265728, type: 3}
+  - birdScored: {fileID: 8300000, guid: 11fab35d5b81dc34083f40a14f6aed10, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

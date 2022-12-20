@@ -12,6 +12,7 @@ public class GameControl : MonoBehaviour
     public TMP_Text scoreText;
     public bool gameOver = false;
     public float scrollSpeed = -1.5f;
+    public AudioClip birdJump;
 
     private int score = 0;
 

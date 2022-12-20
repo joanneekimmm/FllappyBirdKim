@@ -5,10 +5,14 @@ using UnityEngine;
 public class bird : MonoBehaviour
 {
     public float upForce = 200f;
+    public AudioClip birdJump;
+    public AudioClip birdDie;
+    public AudioClip birdScored;
 
     private bool isDead = false;
     private Rigidbody2D rb2d;
     private Animator anim;
+
 
 
     // Start is called before the first frame update
